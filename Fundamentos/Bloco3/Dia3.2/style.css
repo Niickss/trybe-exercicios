@@ -1,0 +1,32 @@
+<style>
+h1 {
+    width:65px;
+    color: orange;
+    font-family: sans-serif;
+
+}
+.corfundo{
+    background-color: aqua;
+}
+p   {
+    font-weight: 600;
+    text-align:center;
+    font-size: 3em;
+    text-decoration: overline;
+}
+body {
+    font-size: 16px;
+    font-style: oblique;
+    line-height: 20px;
+}
+#amarelo {
+    background-color: yellow;
+}
+#vermelho {
+    background-color: red;
+}
+#marrom {
+    background-color: brown;
+}
+
+</style>
