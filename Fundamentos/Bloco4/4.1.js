@@ -1,8 +1,9 @@
-const myName = "Nicole";
-const birthCity = "Curitiba";
-let birthYear = 1997;
-birthYear = 2030;
+const base = 5;
+let heigth = 8;
+const area = base * heigth;
+const perimeter = area;
 
-console.log (myName);
-console.log (birthCity);
-console.log (birthYear);
+console.log (base);
+console.log (heigth);
+console.log (area);
+console.log (perimeter);
