@@ -1,12 +1,33 @@
-h1, p {
-    text-align:center;
-}
-ol:hover {
-    background-color: aquamarine;
-}
-ol:active {
-    color: blueviolet;
-}
-ol,ul {
-    list-style: none;
-}
+.super-mario {
+    width: 200px;
+    position: absolute;
+    top: 100px;
+  }
+  
+  .goomba {
+    width: 100px;
+    float: left;
+    position: absolute;
+    top: 400px;
+    
+  }
+  
+  .baloon {
+    z-index: 1;
+    margin-left: 220px;
+  }
+  
+  .speach {
+    font-size: 25px;
+    position: absolute;
+    top: 100px;
+    z-index: 2;
+    margin-left: 240px;
+  }
+  
+  .bowser {
+    width: 200px;
+    position:absolute;
+    top: 300px;
+    margin-left: 500px;
+  }
