@@ -1,9 +1,8 @@
-const a = -22;
+const ladoA = 10;
+const ladoB = 10;
+const ladoC = 70;
 
-if (a >= 1) {
-    console.log ("POSITIVE");
-} else if (a <= -1) {
-    console.log ("NEGATIVE");
-} else {
-    console.log ("ZERO");
+console.log (ladoA + ladoB + ladoC === 180);
+if (ladoA + ladoB + ladoC !== 180) {
+    console.log ("Não é um triângulo")
 }
