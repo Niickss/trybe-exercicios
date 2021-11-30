@@ -1,11 +1,9 @@
-const a = 64;
-const b = 30;
-const c = 10;
+const a = -22;
 
-if (c > b && a) {
-    console.log (c);
-} else if (b < a && c) {
-    console.log (b);
+if (a >= 1) {
+    console.log ("POSITIVE");
+} else if (a <= -1) {
+    console.log ("NEGATIVE");
 } else {
-    console.log (a)
+    console.log ("ZERO");
 }
