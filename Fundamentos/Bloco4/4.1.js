@@ -1,8 +1,8 @@
-const a = 27;
-const b = 20;
+const a = 64;
+const b = 30;
 
-console.log (a + b);
-console.log (a - b);
-console.log (a * b);
-console.log (a / b);
-console.log (a % b);
+if (a>=b) {
+    console.log (a);
+} else if (a<=b) {
+    console.log (b);
+}
