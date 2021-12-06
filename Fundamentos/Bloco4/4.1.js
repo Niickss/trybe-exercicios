@@ -1,8 +1,5 @@
-const ladoA = 10;
-const ladoB = 10;
-const ladoC = 70;
+let groceryList = ['Arroz', 'Feijão', 'Alface', 'Melancia'];
 
-console.log (ladoA + ladoB + ladoC === 180);
-if (ladoA + ladoB + ladoC !== 180) {
-    console.log ("Não é um triângulo")
+for (let index=0; index<groceryList.length; index +=1) {
+    console.log (groceryList[index]);
 }
